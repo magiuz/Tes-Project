@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tes Form</title>
+</head>
+<body>
+    <form action="welcome.html" method="GET"> <!-- Choose one Methot Post or Get-->
+    <!--Account-->
+        <h1>Buat Account Baru</h1>
+        <h3>Sign Up Form</h3>
+        
+    <label for="firstname">First name</label><br><br> <!-- adjust with input id name (firstname)-->
+        <input type="text" id="firstname"><br><br>
+        <label for="lastname">Last name</label><br><br> <!-- adjust with input id name (lastname)-->
+        <input type="text" id="lastname"><br><br>
+
+    <!--Gender-->
+    <label>Gender:</label><br><br>
+        <input type="radio" name="gn" value="Male">Male<br><!--name function so that you can choose one-->
+        <input type="radio" name="gn" value="Female">Female<br>
+        <input type="radio" name="gn" value="Other">Other <br><br>
+        
+    <!--Nation-->
+    <label>Nationality:</label><br><br>
+        <select name="nation">
+            <option value="indo">Indonesian</option>
+            <option value="amr">Amerika</option>
+			<option value="ing">Inggris</option>
+        </select><br><br>
+
+    <!--Language Spoken-->
+    <label>Language Spoken:</label><br><br>
+        <input type="checkbox" name="bindo">Bahasa Indonesia <br>
+        <input type="checkbox" name="eng">English <br>
+        <input type="checkbox" name="oth">Other <br>
+    
+    <!--Bio-->
+    <label>Bio:</label><br><br>
+        <textarea id="bio_1" name="bio" rows="10" cols="30"></textarea><br> 
+    
+        <input type="submit" value="Sign Up">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,57 @@
+body {
+  background-image: url(../img/pattern.jpg);
+  margin: 0px; /*supaya margin di body full ga ada space*/
+}
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+}
+
+ul {
+  color: blueviolet;
+  list-style: none;
+  font-size: medium;
+}
+li {
+  display: inline;
+  margin: 5px;
+}
+
+section {
+  background-color: white;
+  margin: 80px 150px 30px;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+footer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  color: white;
+  padding: 5px;
+}
+article {
+  border-bottom: 2px solid black;
+  margin: 20px;
+}
+a {
+  text-decoration: none;
+}
+/* tambahan class penutup diambil dari file index.html di bagian footer karna tidak boleh dirubah ya simpen aja disini
+.penutup {
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  color: beige;
+}
+*/
+/*note
+yang dicontoh di taro di elemen <div> sedangkan di soal elemen nav. elemen nav dibungkus header.. jadi letakkan di header fixed position nya
+*/
